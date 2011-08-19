@@ -1,0 +1,5 @@
+options	KDTRACE_HOOKS
+options	DDB_CTF
+options	KDTRACE_FRAME
+makeoptions	DEBUG="-g"
+makeoptions	WITH_CTF=1

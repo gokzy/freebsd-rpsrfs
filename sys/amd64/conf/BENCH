@@ -1,0 +1,11 @@
+ident BENCH
+
+nomakeoptions	DEBUG
+
+nooptions	KDB
+nooptions	DDB
+nooptions	GDB
+nooptions	INVARIANTS
+nooptions	INVARIANT_SUPPORT
+nooptions	WITNESS
+nooptions	WITNESS_SKIPSPIN
