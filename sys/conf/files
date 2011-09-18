@@ -2758,6 +2758,7 @@ netinet/in_pcbgroup.c		optional inet pcbgroup | inet6 pcbgroup
 netinet/in_proto.c		optional inet | inet6 \
 	compile-with "${NORMAL_C} -I$S/contrib/pf"
 netinet/in_rmx.c		optional inet
+netinet/in_rfs.c		optional inet rfs
 netinet/ip_divert.c		optional inet ipdivert ipfirewall
 netinet/ipfw/dn_heap.c		optional inet dummynet
 netinet/ipfw/dn_sched_fifo.c	optional inet dummynet
